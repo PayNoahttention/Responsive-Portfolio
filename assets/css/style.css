@@ -278,3 +278,103 @@ p {
         padding: 1.5% 0.75% 1.5% 2.25%; 
     }
 }
+
+/* 768px size */
+
+@media only screen and (max-width: 768px)  {
+
+    body {
+        font-size: 15px;
+        font-size: 2.5vw;
+    }
+    
+    .container {
+        width: 98%;
+    }
+
+    /* nav area thangs */
+    #myName {
+        width: 32%;
+        padding: 4% 3%;
+    }
+
+    #menu {
+        text-align: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 4.5% 1.25%; 
+    }
+
+    #menu a {
+        margin: 0 1.75%;
+        padding-right: 4%;
+    }
+
+
+
+    /* main area thangs */
+    #main_area {
+        padding: 4.5% 0 5.25% 0;
+    }
+
+    .main {
+        width: 90%;
+        margin: 4.2% 0 7% 0;
+        padding: 4% 5% 3% 5%;
+    }
+
+    .main h1 {
+        margin-bottom: 5.5%;
+        padding-bottom: 3.5%; 
+    }
+
+
+    /* index page thangs */
+    .main .photo img {
+        max-width : 27%;
+        max-height: 27%;
+        width: 27%;
+        margin: 0.5em 5% 1.5em 0;
+    }
+
+    /* portfolio thangs */
+    .main .portfolio {
+        width: 41%;
+        margin: 0 4% 5% 4%;
+    }
+
+    .main .portfolio img {
+        width: 100%;
+        margin: 1.5%;
+    }
+
+    .main .portfolio figcaption {
+        width: 95%;
+        bottom: 10%;
+        left: 1.5%;
+        padding: 3.5%;
+    }
+
+    /* contact page thangs */
+    .main label {
+        margin-bottom: 2.75%;
+    }
+
+    .main input {
+        margin-bottom: 2.73%;
+        padding: 1.5% 0.75% 1.5% 2.2%;
+    }
+
+    .main textarea {
+        height: 30%;
+        margin-bottom: 2.75%;
+        padding: 1.5% 0.75% 1.5% 2.2%;
+    }
+
+    /* Things are aFOOTER */
+    #footer {
+        padding: 5.5%;
+    }
+}
