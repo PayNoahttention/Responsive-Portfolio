@@ -1,3 +1,5 @@
+/* This is css for original portfolio */
+
 /* General stuff */
 body {
     background-image: url("../images/pw_maze_white.png");
@@ -192,4 +194,40 @@ p {
     bottom: 20px;
     margin-left: 20px;
     padding: 10px 10px;
+}
+
+
+/* Idk this size */
+
+@media all and (max-width: 980px) and (min-width: 769px), all and (max-device-width: 980px) and (min-device-width: 769px) {
+
+}
+
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+/* Nav area again */
+
+#menu {
+    text-align: right;
+    width: 440px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+/*main area again */
+
+.main {
+    font-size: 1.75vw;
+    width: 90%;
+    margin: 5% 0;
+    padding: 4% 5% 3% 5%;
+}
+
+.main h1 {
+    margin-bottom: 5.5%;
+    padding-bottom: 4%;
 }
